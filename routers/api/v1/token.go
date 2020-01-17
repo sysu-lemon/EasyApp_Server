@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"com/EasyApp_Server/util/app"
-	"com/EasyApp_Server/util/e"
 	"github.com/gin-gonic/gin"
+	"github.com/sysu-lemon/EasyApp_Server/util/app"
+	"github.com/sysu-lemon/EasyApp_Server/util/e"
 	"net/http"
 )
 

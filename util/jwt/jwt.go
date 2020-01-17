@@ -1,8 +1,8 @@
 package jwt
 
 import (
-	"com/EasyApp_Server/models"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/sysu-lemon/EasyApp_Server/models"
 	"time"
 )
 

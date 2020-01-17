@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"com/EasyApp_Server/util/app"
-	"com/EasyApp_Server/util/jwt"
 	"com/gin-learning/util/e"
 	"github.com/gin-gonic/gin"
+	"github.com/sysu-lemon/EasyApp_Server/util/app"
+	"github.com/sysu-lemon/EasyApp_Server/util/jwt"
 	"net/http"
 	"time"
 )

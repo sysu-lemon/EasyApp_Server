@@ -1,8 +1,8 @@
 package routers
 
 import (
-	v1 "com/EasyApp_Server/routers/api/v1"
 	"github.com/gin-gonic/gin"
+	v1 "github.com/sysu-lemon/EasyApp_Server/routers/api/v1"
 )
 
 func Init() *gin.Engine {

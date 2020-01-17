@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"com/EasyApp_Server/middleware"
 	"github.com/gin-gonic/gin"
+	"github.com/sysu-lemon/EasyApp_Server/middleware"
 )
 
 func Register(router *gin.RouterGroup) {
