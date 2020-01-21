@@ -11,6 +11,6 @@ func Register(router *gin.RouterGroup) {
 		v1.POST("/login", signIn)
 		v1.POST("/users", signUp)
 
-		v1.GET("/token", checkToken).Use(middleware.JWT())
+		v1.Use(middleware.JWT()).GET("/token", checkToken)
 	}
 }

@@ -4,5 +4,5 @@ import "github.com/sysu-lemon/EasyApp_Server/routers"
 
 func main() {
 	r := routers.Init()
-	r.Run(":8000")
+	r.Run()
 }
